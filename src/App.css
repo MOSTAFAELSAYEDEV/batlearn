@@ -1,0 +1,47 @@
+/* App-specific styles */
+.App {
+  text-align: center;
+}
+
+/* Batman Theme - Cards and Components */
+.batman-card {
+  background: #1a1a1a;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5),
+              0 0 10px rgba(255, 215, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.batman-card:hover {
+  border-color: rgba(255, 215, 0, 0.6);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7),
+              0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+.batman-button {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 6px rgba(255, 215, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.batman-button:hover {
+  background: linear-gradient(135deg, #FFA500 0%, #FFD700 100%);
+  box-shadow: 0 6px 12px rgba(255, 215, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.batman-input {
+  background: #1a1a1a;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  color: #FFD700;
+  transition: all 0.3s ease;
+}
+
+.batman-input:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+  outline: none;
+}
